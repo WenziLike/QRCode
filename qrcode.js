@@ -1,6 +1,6 @@
-let input = document.querySelector('.form input')
-let button = document.querySelector('.form button')
-let qrImg = document.querySelector('.qr-img img')
+const input = document.querySelector('.form input')
+const button = document.querySelector('.form button')
+const qrImg = document.querySelector('.qr-img img')
 
 button.addEventListener('click', function () {
     let data = input.value
